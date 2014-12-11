@@ -5,9 +5,8 @@ jdk:
   - openjdk7
   #- openjdk6
 
-
 before_in#stall:
-- sudo usermod -G shippable www-data
+  - sudo usermod -G shippable www-data
 # - sudo chmod 0777 $SHIPPABLE_REPO_DIR
 archive: true
 cache: true
