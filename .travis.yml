@@ -10,3 +10,4 @@ before_install:
   - sudo chmod 0777 $SHIPPABLE_REPO_DIR
 archive: true
 cache: true
+build_image: shippable/minv2:beta
